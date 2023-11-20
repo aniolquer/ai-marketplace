@@ -1,6 +1,4 @@
-import React from 'react'
-
-const TeambuildingList = () => {
+export const TeambuildingList = () => {
   return (
         <>
         <h1>Teambuilding List</h1>
@@ -13,5 +11,3 @@ const TeambuildingList = () => {
     </>
   )
 }
-
-export default TeambuildingList

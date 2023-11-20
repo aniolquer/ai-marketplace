@@ -1,4 +1,3 @@
-
 import {Configuration, OpenAIApi} from "openai-edge"
 import {OpenAIStream, StreamingTextResponse} from "ai"
 
@@ -9,8 +8,6 @@ const config = new Configuration({
 })
 
 const openAi = new OpenAIApi(config)
-
-
 
 export async function POST(request: Request){
 
@@ -29,5 +26,4 @@ export async function POST(request: Request){
     const stream = await OpenAIStream(response)
 
     return new StreamingTextResponse(stream)
-
 }
