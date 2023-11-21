@@ -1,0 +1,84 @@
+{
+    "activities": [
+        {
+            "title": "Escape Room Challenge",
+            "indoor_outdoor": "Indoor",
+            "estimated_price": "$25-$40 per person",
+            "group_size": "4-8 people",
+            "description": "A thrilling activity where teams solve puzzles and riddles to 'escape' a themed room within a time limit, promoting problem-solving and teamwork.",
+            "id": 1
+        },
+        {
+            "title": "Charity Fun Run",
+            "indoor_outdoor": "Outdoor",
+            "estimated_price": "$15-$30 per person",
+            "group_size": "10-50 people",
+            "description": "Organize a fun run where participants raise money for a chosen charity. It encourages fitness, social responsibility, and team spirit.",
+            "id": 2
+        },
+        {
+            "title": "Cooking Competition",
+            "indoor_outdoor": "Indoor",
+            "estimated_price": "$50-$100 per person",
+            "group_size": "6-20 people",
+            "description": "Teams compete to create the best dish within a set time. This event fosters creativity, collaboration, and is a delicious way to bond.",
+            "id": 3
+        },
+        {
+            "title": "Wilderness Survival Workshop",
+            "indoor_outdoor": "Outdoor",
+            "estimated_price": "$100-$200 per person",
+            "group_size": "8-20 people",
+            "description": "A workshop where teams learn survival skills like shelter building and fire starting. It's great for developing leadership and teamwork in a fun, challenging environment.",
+            "id": 4
+        },
+        {
+            "title": "Improv Workshop",
+            "indoor_outdoor": "Indoor",
+            "estimated_price": "$20-$50 per person",
+            "group_size": "8-30 people",
+            "description": "An interactive workshop where participants engage in improvisational theater games, enhancing communication skills and quick thinking.",
+            "id": 5
+        },
+        {
+            "title": "Team Sports Day",
+            "indoor_outdoor": "Outdoor",
+            "estimated_price": "$10-$20 per person",
+            "group_size": "15-100 people",
+            "description": "A day filled with various sports like soccer, volleyball, and tug-of-war, encouraging friendly competition and team bonding.",
+            "id": 6
+        },
+        {
+            "title": "Artistic Mural Creation",
+            "indoor_outdoor": "Indoor/Outdoor",
+            "estimated_price": "$30-$60 per person",
+            "group_size": "5-20 people",
+            "description": "Teams collaborate to create a large mural, allowing for creative expression and a sense of accomplishment when viewing the final artwork.",
+            "id": 7
+        },
+        {
+            "title": "Charity Build Project",
+            "indoor_outdoor": "Outdoor",
+            "estimated_price": "$50-$100 per person",
+            "group_size": "10-30 people",
+            "description": "Teams work together to build something tangible (like a playground) for a local charity, promoting teamwork and community service.",
+            "id": 8
+        },
+        {
+            "title": "Drone Racing Tournament",
+            "indoor_outdoor": "Outdoor",
+            "estimated_price": "$40-$80 per person",
+            "group_size": "10-30 people",
+            "description": "Teams learn to fly drones and then compete in a racing tournament, offering a unique, high-tech team-building experience.",
+            "id": 9
+        },
+        {
+            "title": "Corporate Social Responsibility (CSR) Day",
+            "indoor_outdoor": "Indoor/Outdoor",
+            "estimated_price": "$20-$50 per person",
+            "group_size": "20-100 people",
+            "description": "A day dedicated to giving back, such as planting trees or volunteering at a food bank. This builds a sense of purpose and teamwork while contributing to the community.",
+            "id": 10
+        }
+    ]
+}

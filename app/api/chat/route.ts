@@ -14,7 +14,7 @@ export async function POST(request: Request){
     const { messages }  =  await request.json()
 
     const response = await openAi.createChatCompletion({
-        model: 'gpt-4',
+        model: 'gpt-3.5-turbo-1106',
         stream: true,
         messages: [
             {role: 'system', content: 'You are a teambuilding assistant'},

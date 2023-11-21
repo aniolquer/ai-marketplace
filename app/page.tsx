@@ -1,7 +1,7 @@
 import assistant from "../public/assistant.png"
 import Image from "next/image"
-import ChatComponent from "./ui/chatComponent"
-import TeambuildingList from "./ui/teambuildingList"
+import ChatComponent from "./components/chatComponent"
+import TeambuildingList from "./components/teambuildingList"
 // import Suggestions from "./ui/suggestions"
 export default function Home() {
 
