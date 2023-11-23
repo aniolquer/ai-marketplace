@@ -1,9 +1,23 @@
-import assistant from "../public/assistant.png"
+'use client'
+
 import Image from "next/image"
+import assistant from "../public/assistant.png"
 import ChatComponent from "./components/chatComponent"
 import TeambuildingList from "./components/teambuildingList"
-// import Suggestions from "./ui/suggestions"
+import { getNotionData } from "./notion"
+import { useState } from "react"
+import useSWR from "swr"
+import { Teambuilding } from "./utils/types"
+import { PageObjectResponse } from "@notionhq/client/build/src/api-endpoints"
+
+
 export default function Home() {
+
+  console.log("Rendering and downloading…")
+  const [ids, setIds] = useState<string[]>([])
+  // @ts-ignore
+  const {data: activities, error, isLoading} = useSWR<Array<PageObjectResponse>>(`/api/notion?ids=${ids}`, (...args:any) => fetch(...args).then(res => res.json()))
+  console.log({ids, activities})
 
   return (
     <>  
@@ -12,11 +26,16 @@ export default function Home() {
       <br />
       <Image src={assistant} alt='logo' width={150} height={150}/>
       <p>Tell us: what are you looking for?</p>
-
-      {/* <Suggestions /> Opcional por el momento */}
-      <ChatComponent />
+      <ChatComponent onSetIds={setIds} />
       <hr />
-      <TeambuildingList />
+      <div>
+        {activities?.map((item: PageObjectResponse) => (
+          <TeambuildingList key={item.id} item={item} />
+        ))}
+      </div>
+
     </>
   )
 }
+
+
