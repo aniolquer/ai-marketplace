@@ -1,4 +1,4 @@
-# AI-Powered Team-Building Marketplace Platform
+# AI-Powered Team-Building Marketplace
 
 ## Overview
 Our project aims to revolutionize the way HR professionals discover and choose team-building activities. With a comprehensive, centralized platform, we streamline the process of comparing and evaluating team-building service providers. This platform, powered by advanced GPT technology, provides instant access to detailed information about various team-building options.
