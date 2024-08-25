@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { UploadFile } from "../../utils/OpenAI";
+import { UploadFile } from "../../utils/OpenAi";
 
 //create new thread
 export async function POST(req) {

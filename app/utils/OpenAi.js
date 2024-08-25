@@ -1,6 +1,5 @@
 import { OpenAI } from "openai";
 import * as dotenv from "dotenv";
-import { threadId } from "worker_threads";
 
 // Load environment variables from .env file
 dotenv.config();
